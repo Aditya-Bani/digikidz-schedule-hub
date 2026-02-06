@@ -8,7 +8,7 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
+    --background: 48 100% 97%;
     --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
@@ -17,57 +17,57 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    /* Primary - Vibrant Blue */
-    --primary: 217 91% 60%;
+    /* Primary - Vibrant Blue (from logo) */
+    --primary: 200 85% 45%;
     --primary-foreground: 0 0% 100%;
 
-    /* Secondary - Soft Teal */
-    --secondary: 173 58% 39%;
-    --secondary-foreground: 0 0% 100%;
+    /* Secondary - Bright Yellow (from logo) */
+    --secondary: 50 100% 50%;
+    --secondary-foreground: 222 47% 11%;
 
-    --muted: 210 40% 96%;
+    --muted: 48 40% 94%;
     --muted-foreground: 215 16% 47%;
 
-    /* Accent - Warm Orange */
-    --accent: 25 95% 53%;
+    /* Accent - Purple */
+    --accent: 270 60% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 217 91% 60%;
+    --border: 48 30% 88%;
+    --input: 48 30% 88%;
+    --ring: 200 85% 45%;
 
     --radius: 0.75rem;
 
     /* Coach Colors */
-    --coach-bani: 217 91% 60%;
-    --coach-argy: 173 58% 39%;
+    --coach-bani: 200 85% 45%;
+    --coach-argy: 270 60% 55%;
 
     /* Level Colors */
-    --level-little-creator: 280 67% 60%;
-    --level-junior: 25 95% 53%;
+    --level-little-creator: 270 60% 55%;
+    --level-junior: 50 100% 45%;
     --level-teenager: 340 75% 55%;
     --level-trial: 142 71% 45%;
 
     /* Day Colors */
-    --day-senin: 217 91% 60%;
-    --day-selasa: 173 58% 39%;
-    --day-rabu: 280 67% 60%;
+    --day-senin: 200 85% 45%;
+    --day-selasa: 270 60% 55%;
+    --day-rabu: 50 100% 45%;
     --day-kamis: 25 95% 53%;
     --day-jumat: 340 75% 55%;
     --day-sabtu: 142 71% 45%;
     --day-minggu: 0 84% 60%;
 
-    --sidebar-background: 0 0% 98%;
+    --sidebar-background: 48 100% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary: 200 85% 45%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent: 48 60% 95%;
     --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217 91% 60%;
+    --sidebar-border: 48 30% 88%;
+    --sidebar-ring: 200 85% 45%;
   }
 
   .dark {
